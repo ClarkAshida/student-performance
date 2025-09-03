@@ -20,8 +20,8 @@ Sistema completo para análise e predição de performance estudantil utilizando
 #### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/ClarkAshida/Student-Performance-ML.git
-cd Student-Performance-ML
+git clone https://github.com/ClarkAshida/student-performance.git
+cd student-performance
 ```
 
 #### 2. Configure o ambiente virtual
@@ -63,10 +63,10 @@ python manage.py createsuperuser
 #### 6. Inicie o servidor
 
 ```bash
-python manage.py runserver 8001
+python manage.py runserver
 ```
 
-O servidor estará disponível em: `http://127.0.0.1:8001/`
+O servidor estará disponível em: `http://127.0.0.1:8000/`
 
 ## 🎨 Como Rodar o Projeto Frontend Localmente
 
@@ -97,7 +97,7 @@ Crie um arquivo `.env` na raiz do projeto frontend:
 
 ```env
 # API URLs
-VITE_API_BASE_URL_LOCAL=http://127.0.0.1:8001/api/
+VITE_API_BASE_URL_LOCAL=http://127.0.0.1:8000/api/
 VITE_API_BASE_URL_PROD=https://student-performance-backend-bhaxaefmckdtduh0.brazilsouth-01.azurewebsites.net/api/
 ```
 

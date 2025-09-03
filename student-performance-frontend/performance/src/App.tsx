@@ -1,9 +1,9 @@
-import React from "react";
 import AppRoutes from "./routes/AppRoutes";
+import "./App.css";
 
-const App: React.FC = () => {
+const App = () => {
   return (
-    <div>
+    <div className="min-h-screen bg-white text-gray-900">
       <AppRoutes />
     </div>
   );
