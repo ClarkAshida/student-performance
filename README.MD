@@ -1,4 +1,4 @@
-# Student Performance ML - Sistema de Predição de Performance Estudantil
+# Student Performance - Sistema Web de Predição de Performance Estudantil
 
 ## 📋 Sobre o Projeto
 
